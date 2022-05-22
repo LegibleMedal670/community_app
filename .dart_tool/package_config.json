@@ -8,6 +8,84 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "amplify_analytics_pinpoint",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_analytics_pinpoint-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_analytics_pinpoint_android",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_analytics_pinpoint_android-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_analytics_pinpoint_ios",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_analytics_pinpoint_ios-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_analytics_plugin_interface",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_analytics_plugin_interface-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_api_plugin_interface",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_api_plugin_interface-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_auth_cognito",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_auth_cognito-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_auth_cognito_android",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_auth_cognito_android-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_auth_cognito_ios",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_auth_cognito_ios-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_auth_plugin_interface",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_auth_plugin_interface-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_core",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_core-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_datastore_plugin_interface",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_datastore_plugin_interface-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_flutter",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_flutter-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "amplify_storage_plugin_interface",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_storage_plugin_interface-0.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "analyzer",
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-3.4.1",
       "packageUri": "lib/",
@@ -82,6 +160,12 @@
     {
       "name": "cupertino_icons",
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "date_time_format",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/date_time_format-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -306,6 +390,12 @@
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "json_annotation",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/json_annotation-4.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "lints",
@@ -542,6 +632,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/uuid-3.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.1",
       "packageUri": "lib/",
@@ -614,7 +710,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-05-22T06:00:14.499792Z",
+  "generated": "2022-05-22T12:43:54.380584Z",
   "generator": "pub",
   "generatorVersion": "2.16.1"
 }

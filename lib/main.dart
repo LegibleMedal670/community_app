@@ -68,7 +68,8 @@ class _MyAppState extends State<MyApp> {
                       color: Colors.black,
                       icon: Icon(Icons.search),
                       onPressed: () {
-                        print('search pressed');
+                        Navigator.push(
+                            context, MaterialPageRoute(builder: (context) => searchScreen()));
                       },
                     ),
                     IconButton(

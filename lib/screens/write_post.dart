@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_quill/flutter_quill.dart' as quill;
+import 'package:tuple/tuple.dart';
 
 class writePostScreen extends StatefulWidget {
   const writePostScreen({Key? key}) : super(key: key);
@@ -132,7 +133,7 @@ class _writePostScreenState extends State<writePostScreen> {
                 flex: 1,
                 child: Container(
                   child: quill.QuillEditor(
-                    placeholder: ' 내용',
+                    placeholder: '  내용',
                     expands: false,
                     focusNode: FocusNode(),
                     padding: EdgeInsets.zero,
@@ -141,10 +142,18 @@ class _writePostScreenState extends State<writePostScreen> {
                     autoFocus: false,
                     controller: _controller,
                     readOnly: false,
+                    customStyles: quill.DefaultStyles(
+                        placeHolder: quill.DefaultTextBlockStyle(
+                      const TextStyle(fontSize: 16, color: Color(0xFFB5B5B5)),
+                      const Tuple2(0, 0),
+                      const Tuple2(0, 0),
+                      null,
+                    )),
                   ),
                 ),
               ),
               quill.QuillToolbar.basic(
+                locale: Locale('ko'),
                 controller: _controller,
                 showUndo: false,
                 showRedo: false,
