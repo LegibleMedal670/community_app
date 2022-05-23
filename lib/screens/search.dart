@@ -195,6 +195,9 @@ class _searchScreenState extends State<searchScreen> {
                     ),
                     Spacer(),
                     IconButton(
+                      splashColor: Colors.transparent,
+                      highlightColor: Colors.transparent,
+                      enableFeedback: false,
                       icon: Icon(Icons.delete),
                       onPressed: () {
                         print('삭제');
