@@ -217,6 +217,9 @@ class _searchScreenState extends State<searchScreen> {
                     ),
                     Spacer(),
                     IconButton(
+                      splashColor: Colors.transparent,
+                      highlightColor: Colors.transparent,
+                      enableFeedback: false,
                       icon: Icon(Icons.cancel),
                       onPressed: (){
                         print('지우기');
